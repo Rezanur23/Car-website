@@ -376,5 +376,19 @@ header p span{
 	}
 	.row {
 		--bs-gutter-x: -5% !important;
-	  }
+	}
+}
+@media all and (max-width: 385px) {
+	.findCar{
+		font-size: 22px;
+	}
+	.arrowArea{
+		margin-right: -20px;
+	}
+	.swiper-pagination-fraction{
+		width: 92% !important;
+	}
+	.findCar{
+		margin-top: 10px !important;
+	}
 }
