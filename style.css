@@ -381,7 +381,6 @@ header p span{
 }
 .midCol{
     width: 30% ;
-    margin-left: 45px;
 }
 .lastCol{
 	margin-top: 40px;
@@ -677,9 +676,6 @@ header p span{
 	}
 	.btn, p{
 		font-size: 10px !important;
-	}
-	.footer{
-
 	}
 }
 
