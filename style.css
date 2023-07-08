@@ -176,6 +176,12 @@ body{
 	margin-top: 120px;
 	margin-bottom: 80px;
 }
+.col-md-2.thirdLogo {
+    padding-top: 10px;
+}
+.col-md-2.fifthLogo {
+    padding-top: 5px;
+}
 .section3 h3{
 	color: #0D0A19;
 	font-size: 28px;
@@ -207,6 +213,7 @@ body{
 }
 .card{
 	border: none !important;
+	margin: 10px 5px;
 }
 .button1{
 	background: linear-gradient(0deg, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), #7963F0;
@@ -246,6 +253,7 @@ body{
 	align-items: center;
 	justify-content: space-between;
 	padding: 20px;
+	margin-bottom: 30px;
 }
 .findCar{
 	color: #0D0A19;
@@ -296,8 +304,238 @@ header p span{
 }
 .proBtn{
 	color: #9A9EA7 !important;
+	background: var(--greys-f-5-f-6-f-7, #F5F6F7);
+}
+/* find car by section */
+.find-nav{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+.find-nav h3{
+	color: #0D0A19;
+	font-family: Inter;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 36px;
+	letter-spacing: -0.1px;
 }
 
+.btn-find{
+	color: var(--greys-9-a-9-ea-7, #9A9EA7);
+	text-align: center;
+	font-family: Inter;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 21px;
+	letter-spacing: -0.1px;
+}
+.btn-1{
+	display: flex;
+	width: 30%;
+	height: 40px;
+	padding: 8px 26.486px 11px 28.514px;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+}
+.btn-2{
+	width: 22.5%;
+	height: 40px;
+	flex-shrink: 0;
+}
+.btn-3{
+	display: flex;
+	width: 24.5%;
+	height: 40px;
+	padding: 8px 30.5px 11px 30.5px;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+}
+.btn-4{
+	display: flex;
+	width: 24.5%;
+	height: 40px;
+	padding: 8px 24.5px 11px 25.5px;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+}
+.active{
+	color: var(--0-d-0-a-19-primary, #0D0A19);
+	text-align: center;
+	font-family: Inter;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 21px;
+	letter-spacing: -0.1px;
+	border-radius: 8px;
+	border: 1px solid var(--outline, #EEE);
+	background: var(--ffffff, #FFF);
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.midCol{
+    width: 30% ;
+    margin-left: 45px;
+}
+.lastCol{
+	margin-top: 40px;
+}
+.findCarCol{
+	margin-left: 30px;
+}
+.popularP{
+	color: #9A9EA7;
+	font-family: Inter;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: -0.1px;
+	margin-bottom: 50px;
+	margin-left: -30px;
+}
+.popularP1{
+	margin-left: 20px;
+}
+.findCarCol2{
+	margin-left: 40px;
+}
+.findItem{
+	display: flex;
+	margin-bottom: 35px;
+}
+.brand1 img{
+	margin-top: 12px;
+	width: 42px;
+	height: 22px;
+}
+.brand2 img{
+	width: 35.961px;
+	height: 36px;
+	margin-right: 4px;
+	margin-top:5px
+}
+.brand3 img{
+	width: 46px;
+	height: 22px;
+	margin-right: -4px;
+	margin-top: 12px;
+}
+.middleArrow img{
+	margin-left: 145px;
+	width: 20px;
+	height: 20px;
+}
+.brand4 img{
+	width: 38px;
+	height: 38px;
+	margin-right: 4px;
+	margin-top: 4px;
+}
+.findDes{
+	margin-left: 30px;
+}
+.brandName{
+	color: #0D0A19;
+	font-family: Inter;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 27px;
+}
+.num{
+	color: #9A9EA7;
+	font-family: Inter;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	margin-top: -15px;
+	line-height: 21px;
+	letter-spacing: -0.1px;
+}
+.findDes1{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 20px;
+}
+.num1{
+	margin-top: 10px;
+	margin-right: 15px;
+}
+.popularP1{
+	margin-bottom: 20px !important;
+}
+.Subaru{
+	color: #0D0A19;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 35px;
+}
+.footer{
+	background: var(--greys-f-5-f-6-f-7, #F5F6F7);
+	margin-top: 100px;
+}
+.footer .container{
+	padding-top: 56px;
+}
+.footer p{
+	color: var(--greys-9-a-9-ea-7, #9A9EA7);
+	font-family: Inter;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 33px;
+	letter-spacing: -0.1px;
+}
+.footerHead{
+	color: var(--0-d-0-a-19-primary, #0D0A19) !important;
+	font-weight: 700 !important;
+	line-height: 21px !important;
+}
+.copyright .container{
+	display: flex;
+	justify-content: space-between;
+}
+.copyright p{
+	color: var(--greys-9-a-9-ea-7, #9A9EA7);
+	font-family: Inter;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	margin: 20px;
+}
+.copyright .privacy{
+	color: var(--0-d-0-a-19-primary, #0D0A19);
+	font-family: Inter;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 21px;
+	letter-spacing: -0.1px;
+}
+/* hover effect */
+.btn {
+	transition: background-color 0.3s ease;
+}
+
+.btn:hover{
+	border-radius: 8px;
+	background: #0D0A19 !important;
+	color: white !important;
+}
+.button1:hover{
+	border-radius: 8px;
+	background: #7963f0 !important;
+	color: white !important;
+}
 
 
 
@@ -332,6 +570,16 @@ header p span{
 	.searchbtn{
 		margin-top: 0px;
 	}
+	.footer{
+		text-align: center;
+	}
+	.footerHead{
+		margin-top: 20px;
+	}
+	.lastP{
+		margin-bottom: 30px;
+	}
+	
 }
 @media all and (max-width: 767px) {
 	.hero h1{
@@ -377,8 +625,65 @@ header p span{
 	.row {
 		--bs-gutter-x: -5% !important;
 	}
+	.lastCard{
+		margin-bottom: 0px !important;
+	}
+	.find-nav{
+		display: block;
+		text-align: center;
+	}
+	.find-nav h3{
+		margin-bottom: 30px;
+	}
+	.lastCol{
+		display: none;
+	}
+	.findItem1{
+		margin-left:50%;
+	}
+	.num1{
+		margin-right: -250%;
+	}
+	.middleArrow{
+		margin-left: -34%;
+	}
 }
-@media all and (max-width: 385px) {
+
+@media all and (max-width: 420px) {
+	.swiper-pagination-fraction{
+		width: 105% !important;
+	}
+	.hero h1{
+		font-size: 32px ;
+	}
+	.hero p{
+		font-size: 15px;
+	}
+	.header-button {
+		width: 94%;
+		margin-left: 7.5%;
+	}
+	.section4{
+		margin-bottom: 30px;
+	}
+	.findCarCol2 {
+		margin-left: 5%;
+	}
+	.middleArrow {
+		margin-left: -51%;
+	}
+	.popularP1 {
+		margin-left: 50px;
+	}
+	.btn, p{
+		font-size: 10px !important;
+	}
+	.footer{
+
+	}
+}
+
+@media all and (max-width: 395px) {
 	.findCar{
 		font-size: 22px;
 	}
@@ -390,5 +695,11 @@ header p span{
 	}
 	.findCar{
 		margin-top: 10px !important;
+	}
+	.pagination{
+		padding-right: 15px;
+	}
+	.find-nav h3{
+		font-size: 22px;
 	}
 }
