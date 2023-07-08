@@ -364,7 +364,7 @@ header p span{
 	align-items: center;
 	flex-shrink: 0;
 }
-.active{
+/* .active{
 	color: var(--0-d-0-a-19-primary, #0D0A19);
 	text-align: center;
 	font-family: Inter;
@@ -378,7 +378,7 @@ header p span{
 	background: var(--ffffff, #FFF);
 	padding-left: 25px;
 	padding-right: 25px;
-}
+} */
 .midCol{
     width: 30% ;
 }
@@ -535,7 +535,9 @@ header p span{
 	background: #7963f0 !important;
 	color: white !important;
 }
-
+.copyright2{
+	display: none;
+}
 
 
 
@@ -551,7 +553,9 @@ header p span{
 	.searchbtn{
 		font-size: 10px;
 		padding: 17px;
-		
+	}
+	.middleArrow img {
+		margin-left: 55px !important;
 	}
 }
 @media all and (max-width: 960px) {
@@ -578,6 +582,7 @@ header p span{
 	.lastP{
 		margin-bottom: 30px;
 	}
+	
 	
 }
 @media all and (max-width: 767px) {
@@ -644,8 +649,30 @@ header p span{
 		margin-right: -250%;
 	}
 	.middleArrow{
-		margin-left: -34%;
+		margin-left: 0px !important;
 	}
+	.copyright{
+		display: none;
+	}
+	.copyright2{
+		display: block;
+	}
+	.copyright2 p{
+		display: inline;
+	}
+	.copyright2{
+		margin-top: 20px;
+	}
+	.copyright2 .leftPart{
+		margin-top: -20px;
+	}
+	.copyright2 .centerPart{
+		display: grid !important;
+		justify-content: center !important;
+		align-items: center !important;
+		
+	}
+	
 }
 
 @media all and (max-width: 420px) {
@@ -669,7 +696,7 @@ header p span{
 		margin-left: 5%;
 	}
 	.middleArrow {
-		margin-left: -51%;
+		margin-left: -20px !important;
 	}
 	.popularP1 {
 		margin-left: 50px;
